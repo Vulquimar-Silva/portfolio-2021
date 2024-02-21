@@ -1,0 +1,113 @@
+{
+  "nuxt.isNuxtApp": false,
+
+  // Emmet
+  "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+  },
+
+  //Define o tema dos ícones na sidebar
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.startupEditor": "newUntitledFile",
+
+  // Aumenta a fonte do terminal
+  "terminal.integrated.fontSize": 14,
+  "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+  },
+
+  // Configura tamanho e família da fonte
+  "editor.fontSize": 18,
+  "editor.lineHeight": 24,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.fontLigatures": true,
+
+  "emmet.triggerExpansionOnTab": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.compactFolders": false,
+  "editor.renderLineHighlight":"gutter",
+  "editor.tabSize": 2,
+  "workbench.editor.labelFormat": "short", 
+  "extensions.ignoreRecommendations": true,
+  "javascript.suggest.autoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "[css]": {
+      "editor.defaultFormatter": "aeschli.vscode-css-formatter"
+  },
+
+  "editor.rulers": [80, 120],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "never"
+  },
+
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\cmd.exe",
+  "editor.minimap.enabled": true,
+  "editor.parameterHints.enabled": false,
+  "editor.renderWhitespace": "all",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "breadcrumbs.enabled": true,
+  "editor.renderControlCharacters": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 0,
+  "editor.defaultFormatter": "vscode.emmet",
+  "code-runner.enableAppInsights": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "material-icon-theme.folders.associations": {
+  "Aside": "Stack",
+  "Content": "Meta",
+  "MainHeader": "Batch"
+},
+"vsicons.dontShowNewVersionMessage": true,
+"eslint.format.enable": true,
+"terminal.integrated.tabs.enabled": true,
+"workbench.settings.useSplitJSON": true,
+"editor.fontFamily": "'Operator Mono Lig Book', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono', 'Fira Code'",
+"terminal.integrated.fontFamily": "'Operator Mono Lig Book', 'Fira Code', 'SF Mono', Consolas, 'Source Code Pro', 'Dank Mono'",
+"workbench.colorCustomizations": {
+  "editor.lineHighlightBackground": "#1073cf2d",
+  "editor.lineHighlightBorder": "#9fced11f"
+},
+"editor.wordWrap": "off",
+"diffEditor.wordWrap": "off",
+"[markdown]": {
+  "editor.wordWrap": "off",
+  "editor.quickSuggestions": {
+    "comments": "off",
+    "strings": "off",
+    "other": "off"
+  }
+},
+  // Bracket pair colorizer
+  "bracket-pair-colorizer-2.colors": [
+      "#8BE9FD",
+      "#50FA7B",
+      "#FFB86C",
+      "#FF79C6",
+      "#BD93F9",
+      "#F1FA8C"
+  ],
+  "bracket-pair-colorizer-2.colorMode": "Consecutive",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": false,
+  "bracket-pair-colorizer-2.forceIterationColorCycle": false,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "bracket-pair-colorizer-2.showVerticalScopeLine": false,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.unmatchedScopeColor": "#FF5555",
+  "redhat.telemetry.enabled": true,
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "deepscan.enable": true,
+
+}
